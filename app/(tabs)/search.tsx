@@ -4,7 +4,7 @@ import { View, Text, ActivityIndicator, FlatList, Image } from "react-native";
 import { images } from "@/constants/images";
 import { icons } from "@/constants/icons";
 
-import useFetch from "@/services/usefetch";
+import useFetch from "@/services/useFetch";
 import { fetchMovies } from "@/services/api";
 import { updateSearchCount } from "@/services/appwrite";
 
